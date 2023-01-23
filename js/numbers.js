@@ -2,5 +2,5 @@
  * @param {string} number
  */
 export function evenOrOdd(number) {
-	// your code
+  return number % 2 === 0 ? "Even" : "Odd";
 }
